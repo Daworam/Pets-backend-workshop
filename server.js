@@ -8,7 +8,7 @@ const pets = [
   {name: "Steve", species: "Praying Mantis", age: 1, owner: "Jake"}
 ];
 
-app.get('/', (req, res) => {
+app.get('/api/v1', (req, res) => {
   res.sendFile(`${__dirname}/index.html`);
 });
 
